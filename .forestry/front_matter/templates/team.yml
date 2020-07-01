@@ -2,6 +2,11 @@
 label: Team
 hide_body: true
 fields:
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
 - name: team
   type: field_group_list
   fields:
