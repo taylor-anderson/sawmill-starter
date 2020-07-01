@@ -14,5 +14,6 @@ fields:
   - media-feature
   - hero-section
   - photo-grid
+  - team
 pages:
 - content/_index.md
