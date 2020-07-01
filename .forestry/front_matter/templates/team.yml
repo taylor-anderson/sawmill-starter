@@ -2,11 +2,11 @@
 label: Team
 hide_body: true
 fields:
-- name: section_title
+- name: heading
   type: text
   config:
     required: false
-  label: Section Title
+  label: Heading
 - name: team
   type: field_group_list
   fields:
