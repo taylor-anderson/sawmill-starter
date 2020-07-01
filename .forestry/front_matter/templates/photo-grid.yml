@@ -2,19 +2,32 @@
 label: Photo Grid
 hide_body: true
 fields:
-- name: title
-  type: text
+- name: photo_grid
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: sub_heading
+    type: text
+    config:
+      required: false
+    label: Sub Heading
+    description: Client name, author name, project type, etc.
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
   config:
-    required: false
-  label: Title
-- name: sub_heading
-  type: text
-  config:
-    required: false
-  label: Sub Heading
-  description: Client name, author name, etc.
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
+    min: 
+    max: 
+    labelField: 
+  label: Photo Grid
