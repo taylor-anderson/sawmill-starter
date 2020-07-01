@@ -4,7 +4,7 @@ theme = "sawmill"
 title = "Microsite"
 
 [Author]
-name = "DJ Walker"
+name = "Performics"
 
 [[menu.main]]
 name = "Case Studies"
