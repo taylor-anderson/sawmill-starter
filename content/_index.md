@@ -77,6 +77,15 @@ image = "/uploads/2020/07/01/devry.jpg"
 link = "https://lion.box.com/s/22lzvemf8w7qg9s7dvdh2k6zudesz032"
 sub_heading = "Devry University"
 [[blocks]]
+heading = "Presentations"
+style = "Style 2"
+template = "photo-grid"
+[[blocks.photo_grid]]
+heading = "Google Eliminates Paid-Search Average Position Metric"
+image = "/uploads/2020/07/01/intent-based-marketing3.jpg"
+link = ""
+sub_heading = "Ram Singh, Chief Analytics Officer"
+[[blocks]]
 heading = "Team"
 template = "team"
 [[blocks.team]]
@@ -89,14 +98,5 @@ bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
 image = "/uploads/2020/07/01/kenya-make-up-minimalism-936550.jpg"
 job_title = "Web Designer"
 name = "Kimberley Brown"
-[[blocks]]
-heading = "Presentations"
-style = "Style 2"
-template = "photo-grid"
-[[blocks.photo_grid]]
-heading = "Google Eliminates Paid-Search Average Position Metric"
-image = "/uploads/2020/07/01/intent-based-marketing3.jpg"
-link = ""
-sub_heading = "Ram Singh, Chief Analytics Officer"
 
 +++
