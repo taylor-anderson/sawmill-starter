@@ -2,11 +2,11 @@
 label: Photo Grid
 hide_body: true
 fields:
-- name: section_title
+- name: heading
   type: text
   config:
     required: false
-  label: Section Title
+  label: Heading
 - name: style
   type: select
   default: []
