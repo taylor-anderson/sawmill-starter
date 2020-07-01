@@ -63,9 +63,6 @@ heading = "Let's Get Started"
 subheading = ""
 template = "call-to-action"
 [[blocks]]
-content = "Yooooo another body copyyyyy"
-template = "body-copy"
-[[blocks]]
 template = "photo-grid"
 [[blocks.photo_grid]]
 heading = "Innovation at Scale: Intent Based Marketing video"
@@ -77,5 +74,11 @@ heading = "IBM Devry Video"
 image = "/uploads/2020/07/01/devry.jpg"
 link = "https://lion.box.com/s/22lzvemf8w7qg9s7dvdh2k6zudesz032"
 sub_heading = "Devry University"
+[[blocks]]
+template = "team"
+[[blocks.team]]
+bio = "Taylor is Dope."
+job_title = "Associate Web Designer"
+name = "Taylor Anderson"
 
 +++
