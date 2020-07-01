@@ -13,5 +13,6 @@ fields:
   - call-to-action
   - media-feature
   - hero-section
+  - photo-grid
 pages:
 - content/_index.md
