@@ -2,6 +2,25 @@
 label: Photo Grid
 hide_body: true
 fields:
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
+- name: style
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Style 1
+    - Style 2
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Style
 - name: photo_grid
   type: field_group_list
   fields:
@@ -31,17 +50,3 @@ fields:
     max: 
     labelField: heading
   label: Photo Grid
-- name: style
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Style 1
-    - Style 2
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Style
