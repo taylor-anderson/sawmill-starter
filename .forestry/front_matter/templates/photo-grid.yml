@@ -31,3 +31,17 @@ fields:
     max: 
     labelField: heading
   label: Photo Grid
+- name: style
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Style 1
+    - Style 2
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Style
