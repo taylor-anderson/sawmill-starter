@@ -63,6 +63,7 @@ heading = "Let's Get Started"
 subheading = ""
 template = "call-to-action"
 [[blocks]]
+style = "Style 1"
 template = "photo-grid"
 [[blocks.photo_grid]]
 heading = "Innovation at Scale: Intent Based Marketing video"
