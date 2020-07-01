@@ -68,6 +68,11 @@ template = "body-copy"
 [[blocks]]
 template = "photo-grid"
 [[blocks.photo_grid]]
+heading = "Innovation at Scale: Intent Based Marketing video"
+image = "/uploads/2020/07/01/intent-based-marketing3.jpg"
+link = "https://lion.app.box.com/s/fybs5duc92llccfbtqjadj16vv9cu9gi"
+sub_heading = "Performics"
+[[blocks.photo_grid]]
 heading = "IBM Devry Video"
 image = "/uploads/2020/07/01/devry.jpg"
 link = "https://lion.box.com/s/22lzvemf8w7qg9s7dvdh2k6zudesz032"
