@@ -65,6 +65,12 @@ template = "call-to-action"
 [[blocks]]
 content = "Yooooo another body copyyyyy"
 template = "body-copy"
-
+[[blocks]]
+template = "photo-grid"
+[[blocks.photo_grid]]
+heading = "IBM Devry Video"
+image = "/uploads/2020/07/01/devry.jpg"
+link = "https://lion.box.com/s/22lzvemf8w7qg9s7dvdh2k6zudesz032"
+sub_heading = "Devry University"
 
 +++
