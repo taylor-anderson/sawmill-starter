@@ -1,12 +1,30 @@
 baseURL = "https://dwalkr.github.io/sawmill/"
 languageCode = "en-us"
 theme = "sawmill"
-title = "Sawmill"
+title = "Microsite"
+
 [Author]
 name = "DJ Walker"
+
 [[menu.main]]
-name = "View on Github"
-url = "https://github.com/dwalkr/sawmill"
-weight = 10
+name = "Case Studies"
+url = "#section1"
+weight = 1
+
+[[menu.main]]
+name = "Presentations"
+url = "#section2"
+weight = 2
+
+[[menu.main]]
+name = "Media Feature"
+url = "#section3"
+weight = 3
+
+[[menu.main]]
+name = "Team"
+url = "#section4"
+weight = 4
+
 [params]
 logo = "/logo.svg"
