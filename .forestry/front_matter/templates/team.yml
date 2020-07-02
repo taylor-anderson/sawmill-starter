@@ -8,6 +8,9 @@ fields:
   config:
     required: false
   label: Heading
+- name: group_by_location
+  type: boolean
+  label: Group by Location
 - name: team
   type: field_group_list
   fields:
@@ -40,3 +43,45 @@ fields:
     max: 
     labelField: 
   label: Team
+  showOnly:
+    field: group_by_location
+- name: team_by_location
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: job_title
+    type: text
+    config:
+      required: false
+    label: Job Title
+  - name: location
+    type: text
+    config:
+      required: false
+    label: Location
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Bio
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Team By Location
+  showOnly:
+    field: group_by_location
+    value: true
