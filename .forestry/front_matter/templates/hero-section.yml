@@ -39,3 +39,19 @@ fields:
     - Small
   label: Size
   default: Big
+- name: text_alignment
+  type: text
+  config:
+    required: false
+  label: Text Alignment
+  description: 'Text alignment of hero text '
+- name: hero_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hero Content
+  description: Optional additional hero content
