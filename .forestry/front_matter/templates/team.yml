@@ -11,6 +11,11 @@ fields:
 - name: group_by_location
   type: boolean
   label: Group by Location
+- name: background_style
+  type: text
+  config:
+    required: false
+  label: Background Style
 - name: team
   type: field_group_list
   fields:
