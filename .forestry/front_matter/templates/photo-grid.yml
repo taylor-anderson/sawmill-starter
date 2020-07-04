@@ -22,6 +22,11 @@ fields:
       file: 
       path: 
   label: Style
+- name: background_style
+  type: text
+  config:
+    required: false
+  label: Background Style
 - name: photo_grid
   type: field_group_list
   fields:
