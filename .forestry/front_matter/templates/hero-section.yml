@@ -45,7 +45,7 @@ fields:
     required: false
   label: Text Alignment
   description: 'Text alignment of hero text '
-- name: hero_content
+- name: content
   type: textarea
   default: ''
   config:
