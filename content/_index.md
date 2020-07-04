@@ -1,15 +1,17 @@
 +++
-title = "Homepage"
+title = "Microsite Homepage"
 type = "page"
 [[blocks]]
 background_image = "/uploads/2018/04/20/logs-splash.png"
 background_style = "Dark"
 button_text = ""
 button_url = ""
+content = ""
 heading = "Microsite"
 size = "Big"
 subheading = "A microsite template used by Performics."
 template = "hero-section"
+text_alignment = ""
 [[blocks]]
 content = "**Sawmill** is a simplistic Hugo theme built to take advantage of [Forestry CMS](https://forestry.io \"Forestry.io\")'s Blocks feature.\n\nThis theme includes a few basic components to get started with Blocks right away and create dynamic, visually interesting layouts. Once you get the hang of Sawmill's modular content strategy, you are encouraged to start creating your own components to fit the needs of your website."
 template = "body-copy"
@@ -18,10 +20,12 @@ background_image = ""
 background_style = "Brand Color"
 button_text = ""
 button_url = ""
+content = ""
 heading = "Features"
 size = "Small"
 subheading = ""
 template = "hero-section"
+text_alignment = ""
 [[blocks]]
 background_style = "Light"
 button_text = ""
@@ -63,6 +67,7 @@ heading = "Let's Get Started"
 subheading = ""
 template = "call-to-action"
 [[blocks]]
+background_style = ""
 heading = "Case Studies"
 style = "Style 1"
 template = "photo-grid"
@@ -77,6 +82,7 @@ image = "/uploads/2020/07/01/devry.jpg"
 link = "https://lion.box.com/s/22lzvemf8w7qg9s7dvdh2k6zudesz032"
 sub_heading = "Devry University"
 [[blocks]]
+background_style = ""
 heading = "Presentations"
 style = "Style 2"
 template = "photo-grid"
@@ -86,7 +92,10 @@ image = "/uploads/2020/07/01/intent-based-marketing3.jpg"
 link = ""
 sub_heading = "Ram Singh, Chief Analytics Officer"
 [[blocks]]
+background_style = ""
+group_by_location = false
 heading = "Team"
+team_by_location = []
 template = "team"
 [[blocks.team]]
 bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
